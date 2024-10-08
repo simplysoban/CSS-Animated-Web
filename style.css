@@ -35,7 +35,7 @@ body::before{
     z-index: 2;
     transform: perspective(1000px)
     ;
-    animation: rotation 20s linear infinite;
+    animation: rotation 24s linear infinite;
 }
 
 @keyframes rotation {
@@ -59,7 +59,7 @@ body::before{
     rotateY(calc((var(--position) - 1) * (360/var(--position-quantity) ) * 1deg))
     translateZ(400px)
     ;
-    animation: opacity 2s ease-in 1, zoom 4s ease-in-out alternate infinite;
+    animation: opacity 2s ease-in 1, zoom 5s ease-in-out alternate infinite;
 
     
 }
